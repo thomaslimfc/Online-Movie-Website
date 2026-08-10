@@ -13,6 +13,31 @@ body {
 }
 
 
+.custom-tab-pills .nav-link {
+    color: #495057 !important;
+    /* Non-selected text color (Both tabs) */
+    background-color: transparent !important;
+    transition: all 0.3s ease;
+    border-radius: 50rem !important;
+}
+
+
+.custom-tab-pills .nav-link:hover {
+    color: #0d6efd !important;
+    /* Hover text color (Both tabs) */
+    background-color: rgba(13, 110, 253, 0.08) !important;
+}
+
+
+.custom-tab-pills .nav-link.active {
+    color: #ffffff !important;
+    /* Selected text color (Both tabs) */
+    background-color: #0d6efd !important;
+    /* Selected background (Both tabs) */
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.3);
+}
+
+
 .card {
     border: 8px solid black;
     border-radius: 15px;

@@ -12,27 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        /* Uniform Styling for Both Tabs */
-        .custom-tab-pills .nav-link {
-            color: #495057 !important; /* Non-selected text color (Both tabs) */
-            background-color: transparent !important;
-            transition: all 0.3s ease;
-            border-radius: 50rem !important;
-        }
-
-        .custom-tab-pills .nav-link:hover {
-            color: #0d6efd !important; /* Hover text color (Both tabs) */
-            background-color: rgba(13, 110, 253, 0.08) !important;
-        }
-
-        .custom-tab-pills .nav-link.active {
-            color: #ffffff !important; /* Selected text color (Both tabs) */
-            background-color: #0d6efd !important; /* Selected background (Both tabs) */
-            box-shadow: 0 4px 10px rgba(13, 110, 253, 0.3);
-        }
-    </style>
 </head>
 
 <body>
@@ -54,17 +33,21 @@
         </center>
         <br>
 
-        <!-- Modern Pill-Style Nav Tabs with Custom Uniform Colors -->
         <div class="d-flex justify-content-center mb-5">
-            <ul class="nav nav-pills custom-tab-pills bg-light p-2 rounded-pill border shadow-sm" id="streamingTabs" role="tablist">
+            <ul class="nav nav-pills custom-tab-pills bg-light p-2 rounded-pill border shadow-sm" id="streamingTabs"
+                role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active px-4 py-2 fw-semibold" id="movies-tab" data-bs-toggle="pill" data-bs-target="#movies-tab-pane" type="button" role="tab" aria-controls="movies-tab-pane" aria-selected="true">
-                        <i class="fas fa-film me-2"></i>Movies & TV Shows
+                    <button class="nav-link active px-4 py-2 fw-semibold" id="movies-tab" data-bs-toggle="pill"
+                        data-bs-target="#movies-tab-pane" type="button" role="tab" aria-controls="movies-tab-pane"
+                        aria-selected="true">
+                        <i class="fas fa-film me-2"></i>Movies 电影
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link px-4 py-2 fw-semibold" id="soccer-tab" data-bs-toggle="pill" data-bs-target="#soccer-tab-pane" type="button" role="tab" aria-controls="soccer-tab-pane" aria-selected="false">
-                        <i class="fas fa-futbol me-2"></i>Soccer & Sports
+                    <button class="nav-link px-4 py-2 fw-semibold" id="soccer-tab" data-bs-toggle="pill"
+                        data-bs-target="#soccer-tab-pane" type="button" role="tab" aria-controls="soccer-tab-pane"
+                        aria-selected="false">
+                        <i class="fas fa-futbol me-2"></i>Sports 运动
                     </button>
                 </li>
             </ul>
@@ -73,7 +56,8 @@
         <div class="tab-content" id="streamingTabsContent">
 
             <!-- Movies Tab -->
-            <div class="tab-pane fade show active" id="movies-tab-pane" role="tabpanel" aria-labelledby="movies-tab" tabindex="0">
+            <div class="tab-pane fade show active" id="movies-tab-pane" role="tabpanel" aria-labelledby="movies-tab"
+                tabindex="0">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                     <!-- Nbyy -->
                     <div class="col">
@@ -83,7 +67,8 @@
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">Nbyy</h5>
-                                <p class="card-text">Offers a wide selection of Asian dramas and movies with multiple server
+                                <p class="card-text">Offers a wide selection of Asian dramas and movies with multiple
+                                    server
                                     options.</p>
                                 <a href="https://www.nbyy.cc/" class="btn btn-visit text-white" target="_blank">泥巴影院</a>
                             </div>
@@ -98,7 +83,8 @@
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">Nivod</h5>
-                                <p class="card-text">A comprehensive platform for Chinese movies and TV shows with high quality
+                                <p class="card-text">A comprehensive platform for Chinese movies and TV shows with high
+                                    quality
                                     streaming.</p>
                                 <a href="https://www.nivod.cc/" class="btn btn-visit text-white" target="_blank">泥视频</a>
                             </div>
@@ -116,7 +102,8 @@
                                 <p class="card-text">
                                     Fast-loading streaming platform with minimal ads and multiple video quality options.
                                 </p>
-                                <a href="https://www.duonaovod.org" class="btn btn-visit text-white" target="_blank">多瑙影视</a>
+                                <a href="https://www.duonaovod.org" class="btn btn-visit text-white"
+                                    target="_blank">多瑙影视</a>
                             </div>
                         </div>
                     </div>
@@ -130,9 +117,11 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">Oleol</h5>
                                 <p class="card-text">
-                                    Extensive collection of Asian and international films with easy navigation and fast servers.
+                                    Extensive collection of Asian and international films with easy navigation and fast
+                                    servers.
                                 </p>
-                                <a href="https://www.oleol.com/" class="btn btn-visit text-white" target="_blank">欧乐影院</a>
+                                <a href="https://www.oleol.com/" class="btn btn-visit text-white"
+                                    target="_blank">欧乐影院</a>
                             </div>
                         </div>
                     </div>
@@ -148,7 +137,8 @@
                                 <p class="card-text">
                                     Fast-loading streaming platform with minimal ads and multiple video quality options.
                                 </p>
-                                <a href="https://v.ikanbot.com/" class="btn btn-visit text-white" target="_blank">爱看机器人</a>
+                                <a href="https://v.ikanbot.com/" class="btn btn-visit text-white"
+                                    target="_blank">爱看机器人</a>
                             </div>
                         </div>
                     </div>
@@ -177,9 +167,11 @@
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">Cupfox</h5>
-                                <p class="card-text">A cute and user-friendly interface with international movies and TV series
+                                <p class="card-text">A cute and user-friendly interface with international movies and TV
+                                    series
                                     collection.</p>
-                                <a href="https://www.cupfox.in/" class="btn btn-visit text-white" target="_blank">茶杯狐</a>
+                                <a href="https://www.cupfox.in/" class="btn btn-visit text-white"
+                                    target="_blank">茶杯狐</a>
                             </div>
                         </div>
                     </div>
@@ -193,7 +185,8 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">Gimy</h5>
                                 <p class="card-text">
-                                    Popular streaming site featuring the latest Chinese dramas, movies, and variety shows with
+                                    Popular streaming site featuring the latest Chinese dramas, movies, and variety
+                                    shows with
                                     smooth playback.
                                 </p>
                                 <a href="https://gimytw.cc/" class="btn btn-visit text-white" target="_blank">剧迷</a>
@@ -205,7 +198,8 @@
                     <div class="col">
                         <div class="card h-100">
                             <div style="background-color: #2F2F2F;">
-                                <img src="images/novipnoad.png" class="card-img-top" style="padding: 20px;" alt="Novipnoad">
+                                <img src="images/novipnoad.png" class="card-img-top" style="padding: 20px;"
+                                    alt="Novipnoad">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">NoVipNoad</h5>
@@ -232,7 +226,8 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">UEFA</h5>
                                 <p class="card-text">Union of European Football Associations <br><br> 欧洲足球协会联盟</p>
-                                <a href="https://www.uefa.tv/section/Highlights" class="btn btn-visit text-white" target="_blank">欧足联</a>
+                                <a href="https://www.uefa.tv/section/Highlights" class="btn btn-visit text-white"
+                                    target="_blank">欧足联</a>
                             </div>
                         </div>
                     </div>
@@ -245,8 +240,10 @@
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">FIFA</h5>
-                                <p class="card-text">International Federation of Association Football <br><br> 国际足球联合会</p>
-                                <a href="https://www.fifa.com/en/tournaments" class="btn btn-visit text-white" target="_blank">国际足联</a>
+                                <p class="card-text">International Federation of Association Football <br><br> 国际足球联合会
+                                </p>
+                                <a href="https://www.fifa.com/en/tournaments" class="btn btn-visit text-white"
+                                    target="_blank">国际足联</a>
                             </div>
                         </div>
                     </div>
@@ -260,7 +257,8 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">RTVE</h5>
                                 <p class="card-text">Spanish Radio and Television Corporation <br><br> 西班牙广播电视公司</p>
-                                <a href="https://www.rtve.es/play/teledeporte/futbol/" class="btn btn-visit text-white" target="_blank">西班牙国家电视台</a>
+                                <a href="https://www.rtve.es/play/teledeporte/futbol/" class="btn btn-visit text-white"
+                                    target="_blank">西班牙国家电视台</a>
                             </div>
                         </div>
                     </div>
@@ -275,7 +273,8 @@
                                 <!-- <i class="bi bi-trophy-fill"></i> -->
                                 <h5 class="card-title fw-bold">ITV</h5>
                                 <p class="card-text">Independent Television (UK) <br><br><br> 英国独立电视台</p>
-                                <a href="https://www.itv.com/watch/categories/sport" class="btn btn-visit text-white" target="_blank">英国独立电视台官网</a>
+                                <a href="https://www.itv.com/watch/categories/sport" class="btn btn-visit text-white"
+                                    target="_blank">英国独立电视台官网</a>
                             </div>
                         </div>
                     </div>
@@ -284,13 +283,15 @@
                     <div class="col">
                         <div class="card h-100">
                             <div style="background-color: #000000;">
-                                <img src="images/yunque.png" class="card-img-top" style="padding: 20px;" alt="YunQue Live">
+                                <img src="images/yunque.png" class="card-img-top" style="padding: 20px;"
+                                    alt="YunQue Live">
                             </div>
                             <div class="card-body text-center">
                                 <!-- <i class="bi bi-trophy-fill"></i> -->
                                 <h5 class="card-title fw-bold">YunQue Live</h5>
                                 <p class="card-text">Gambling site for live sports betting and streaming.</p>
-                                <a href="https://c225.live/live" class="btn btn-visit text-white" target="_blank">云雀直播</a>
+                                <a href="https://c225.live/live" class="btn btn-visit text-white"
+                                    target="_blank">云雀直播</a>
                             </div>
                         </div>
                     </div>
